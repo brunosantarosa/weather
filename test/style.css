@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-maior {
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    background: #7c7c7c2b;
+    width: calc(100% - 60px);
+    font-size: 20px;
+    color: #fff;
+}
+
+.botao {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.botao img {
+    width: 20px;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container-medio {
+    margin-top: 25px;
+}
+
+.container-menor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.temp {
+    color: #fff;
+    font-size: 25px;
+}
+
+.img-tempo {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tempo {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #fff;
+}
