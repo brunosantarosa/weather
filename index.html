@@ -5,31 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão do Tempo</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <input class="input-city" placeholder="Digite o nome da cidade">
-        <button class="search" onclick="clickButton()">
-            <img class="search-img" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        <input class="city-input" placeholder="Search the city">
+        <button onclick="inputValue()">
+            <img class="search-icon" src="https://www.svgrepo.com/show/488200/find.svg" alt="search">
         </button>
 
-        <div class="medium-container">
-            <h2 class="city">Tempo em São Paulo</h2>
+        <div class="container-info">
+            <h2 class="city">Weather in São Paulo</h2>
+            <span class="temp">21ºC</span>
 
-            <p class="temp">21ºC</p>
-
-            <div class="small-container">
-                <img class="img-weather" src="https://openweathermap.org/img/wn/04n.png" alt="ícone-tempo">
-                <p class="text">Nublado</p>
+            <div class="container-tempo">
+                <img class="weather-icon" src="https://openweathermap.org/img/wn/04n.png" alt="weather-icon">
+                <span class="weather-info">Cloudy</span>
             </div>
 
-            <p class="humidity">Umidade: 5%</p>
+            <p class="humidity">Humidity: 5%</p>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 
 </html>
